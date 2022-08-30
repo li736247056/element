@@ -24,10 +24,10 @@
   </span>
 </template>
 <script>
-import Popper from 'element-ui/src/utils/vue-popper';
-import { on, off } from 'element-ui/src/utils/dom';
-import { addClass, removeClass } from 'element-ui/src/utils/dom';
-import { generateId } from 'element-ui/src/utils/util';
+import Popper from 'kerui-element/src/utils/vue-popper';
+import { on, off } from 'kerui-element/src/utils/dom';
+import { addClass, removeClass } from 'kerui-element/src/utils/dom';
+import { generateId } from 'kerui-element/src/utils/util';
 
 export default {
   name: 'ElPopover',

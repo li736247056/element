@@ -1,0 +1,18 @@
+{
+  "tabWidth": 2,
+  //使用tab（制表符）缩进而非空格,
+  "useTabs": false,
+  "printWidth": 200,
+  //一行超过175个字符就换行,
+  "singleQuote": true,
+  //是否在行尾加分号,
+  "semi": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "requirePragma": false,
+  "proseWrap": "preserve",
+  "htmlWhitespaceSensitivity": "ignore",
+  "sortAttributes": false
+}

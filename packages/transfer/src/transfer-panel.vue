@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'element-ui/packages/checkbox-group';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import ElInput from 'element-ui/packages/input';
-  import Locale from 'element-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'kerui-element/packages/checkbox-group';
+  import ElCheckbox from 'kerui-element/packages/checkbox';
+  import ElInput from 'kerui-element/packages/input';
+  import Locale from 'kerui-element/src/mixins/locale';
 
   export default {
     mixins: [Locale],

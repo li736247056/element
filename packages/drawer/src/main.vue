@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import Popup from 'element-ui/src/utils/popup';
-import emitter from 'element-ui/src/mixins/emitter';
+import Popup from 'kerui-element/src/utils/popup';
+import emitter from 'kerui-element/src/mixins/emitter';
 
 export default {
   name: 'ElDrawer',

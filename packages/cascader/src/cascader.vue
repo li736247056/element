@@ -112,21 +112,21 @@
 </template>
 
 <script>
-import Popper from 'element-ui/src/utils/vue-popper';
-import Clickoutside from 'element-ui/src/utils/clickoutside';
-import Emitter from 'element-ui/src/mixins/emitter';
-import Locale from 'element-ui/src/mixins/locale';
-import Migrating from 'element-ui/src/mixins/migrating';
-import ElInput from 'element-ui/packages/input';
-import ElTag from 'element-ui/packages/tag';
-import ElScrollbar from 'element-ui/packages/scrollbar';
-import ElCascaderPanel from 'element-ui/packages/cascader-panel';
-import AriaUtils from 'element-ui/src/utils/aria-utils';
-import { t } from 'element-ui/src/locale';
-import { isEqual, isEmpty, kebabCase } from 'element-ui/src/utils/util';
-import { isUndefined, isFunction } from 'element-ui/src/utils/types';
-import { isDef } from 'element-ui/src/utils/shared';
-import { addResizeListener, removeResizeListener } from 'element-ui/src/utils/resize-event';
+import Popper from 'kerui-element/src/utils/vue-popper';
+import Clickoutside from 'kerui-element/src/utils/clickoutside';
+import Emitter from 'kerui-element/src/mixins/emitter';
+import Locale from 'kerui-element/src/mixins/locale';
+import Migrating from 'kerui-element/src/mixins/migrating';
+import ElInput from 'kerui-element/packages/input';
+import ElTag from 'kerui-element/packages/tag';
+import ElScrollbar from 'kerui-element/packages/scrollbar';
+import ElCascaderPanel from 'kerui-element/packages/cascader-panel';
+import AriaUtils from 'kerui-element/src/utils/aria-utils';
+import { t } from 'kerui-element/src/locale';
+import { isEqual, isEmpty, kebabCase } from 'kerui-element/src/utils/util';
+import { isUndefined, isFunction } from 'kerui-element/src/utils/types';
+import { isDef } from 'kerui-element/src/utils/shared';
+import { addResizeListener, removeResizeListener } from 'kerui-element/src/utils/resize-event';
 import debounce from 'throttle-debounce/debounce';
 
 const { keys: KeyCode } = AriaUtils;

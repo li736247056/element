@@ -88,8 +88,9 @@ import Empty from '../packages/empty/index.js';
 import Descriptions from '../packages/descriptions/index.js';
 import DescriptionsItem from '../packages/descriptions-item/index.js';
 import Result from '../packages/result/index.js';
-import locale from 'element-ui/src/locale';
-import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
+import DropdownFilter from '../packages/dropdown-filter/index.js';
+import locale from 'kerui-element/src/locale';
+import CollapseTransition from 'kerui-element/src/transitions/collapse-transition';
 
 const components = [
   Pagination,
@@ -175,6 +176,7 @@ const components = [
   Descriptions,
   DescriptionsItem,
   Result,
+  DropdownFilter,
   CollapseTransition
 ];
 
@@ -210,7 +212,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '2.15.9',
+  version: '1.0.2',
   locale: locale.use,
   i18n: locale.i18n,
   install,
@@ -302,5 +304,6 @@ export default {
   Empty,
   Descriptions,
   DescriptionsItem,
-  Result
+  Result,
+  DropdownFilter
 };

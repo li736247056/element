@@ -154,6 +154,10 @@
               "title": "Table 表格"
             },
             {
+              "path": "/dropdown-filter",
+              "title": "DropdownFilter 表格筛选组件"
+            },
+            {
               "path": "/tag",
               "title": "Tag 标签"
             },

@@ -79,13 +79,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'element-ui/src/utils/popup';
-  import Locale from 'element-ui/src/mixins/locale';
-  import ElInput from 'element-ui/packages/input';
-  import ElButton from 'element-ui/packages/button';
-  import { addClass, removeClass } from 'element-ui/src/utils/dom';
-  import { t } from 'element-ui/src/locale';
-  import Dialog from 'element-ui/src/utils/aria-dialog';
+  import Popup from 'kerui-element/src/utils/popup';
+  import Locale from 'kerui-element/src/mixins/locale';
+  import ElInput from 'kerui-element/packages/input';
+  import ElButton from 'kerui-element/packages/button';
+  import { addClass, removeClass } from 'kerui-element/src/utils/dom';
+  import { t } from 'kerui-element/src/locale';
+  import Dialog from 'kerui-element/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {
